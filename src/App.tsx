@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { Box, Button, Text, Heading, Center } from "@chakra-ui/react";
+import AppDescription from "./components/ReadMoreHomeComponent";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Center h="100vh">
+        <Box p={4} textAlign="center">
+          <Heading
+            size="xl"
+            fontWeight={400}
+            lineHeight="tall"
+            letterSpacing="tight"
+          >
+            Welcome to Stream Safari
+          </Heading>
+          <AppDescription
+            title={"Join the ultimate Pokemon adventure with StreamSafari!"}
+          />
+        </Box>
+      </Center>
     </div>
   );
 }
