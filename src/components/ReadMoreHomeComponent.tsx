@@ -4,9 +4,7 @@ import {
   Card,
   CardFooter,
   Flex,
-  HStack,
-  Spacer,
-  StackDivider,
+   Spacer,
   Text,
   useBoolean,
 } from "@chakra-ui/react";
@@ -45,9 +43,6 @@ const AppDescription = (props: any) => {
       },
     },
   };
-  const backgroundImageUrl =
-    "https://static.wixstatic.com/media/1af372_584b46a7a56b4ce9b3518596911291e1~mv2.png/v1/fill/w_610,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Website%20Box-01.png";
-  // "https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/8347966bf9a669a.png";
 
   return (
     <Box textAlign="center">
@@ -75,6 +70,7 @@ const AppDescription = (props: any) => {
                       variant={"link"}
                       colorScheme="purple"
                       rightIcon={<ArrowForwardIcon />}
+
                     >
                       Get Started
                     </Button>

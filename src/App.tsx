@@ -1,4 +1,4 @@
-import { Box, Button, Text, Heading, Center } from "@chakra-ui/react";
+import { Box,Heading, Center } from "@chakra-ui/react";
 import AppDescription from "./components/ReadMoreHomeComponent";
 function App() {
   return (
